@@ -1,0 +1,23 @@
+[[1. Manager]]
+- Manager can view SITM revenue from ticket sales, food 
+orders, beverage orders, advertisements, and partnerships.
+- Manager can view SITM expenses, such as facilities improvement, maintenance, electricity, staff wages, taxes, etc.
+- Manager can view SITM movie schedule. -> schedule delays, comparisons between the number of tickets sold and the number of attendees, etc
+- Manager can view Stuck in the Movie membership
+- Manager wants to view Stuck in the Movie’s employee
+- Manager can decide employee's resignation
+- Manager can view report as data visualization based on specific time period
+- Manager can filter data on important attributes for easier searching
+
+[[2. Human Resource Department]]
+- HRD manage SITM employees
+- HRD can view employees personal information -> job details, contact information, warning letters, salary, personal leave, working time, etc
+
+
+[[3. Accounting and Finance Department]]
+[[4. Storage Department]]
+[[5. External Department]]
+[[6. Promotion and Event Department]]
+[[7. Movie Department (3)]]
+[[8. Cafe Department (2)]]
+[[9. Admistrator Department (5)]]
