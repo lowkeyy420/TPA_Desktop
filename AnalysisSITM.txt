@@ -1,23 +1,89 @@
 [[1. Manager]]
-- Manager can view SITM revenue from ticket sales, food 
-orders, beverage orders, advertisements, and partnerships.
-- Manager can view SITM expenses, such as facilities improvement, maintenance, electricity, staff wages, taxes, etc.
-- Manager can view SITM movie schedule. -> schedule delays, comparisons between the number of tickets sold and the number of attendees, etc
-- Manager can view Stuck in the Movie membership
-- Manager wants to view Stuck in the Movie’s employee
-- Manager can decide employee's resignation
-- Manager can view report as data visualization based on specific time period
-- Manager can filter data on important attributes for easier searching
+
+(1) Manager can view SITM revenue -> ticket sales, food orders, beverage orders, advertisements, and partnerships.
+(2) Manager can view SITM expenses -> facilities improvement, maintenance, electricity, staff wages, taxes, etc.
+(3) Manager can view SITM movie schedule. -> schedule delays, comparisons between the number of tickets sold and the number of attendees, etc
+(4) Manager can view SITM facility and equipment
+(5) Manager can view SITM membership
+(6) Manager can view SITM’s employee
+(7) Manager can decide employee's resignation -> letter must be 2 months before resignation
+(8) Manager can view report as data visualization based on specific time period
+(9) Manager can filter data on important attributes for easier searching
 
 [[2. Human Resource Department]]
-- HRD manage SITM employees
-- HRD can view employees personal information -> job details, contact information, warning letters, salary, personal leave, working time, etc
 
+(1) HRD manage SITM employees
+(2) HRD can view employees personal information -> job details, contact information, warning letters, salary, personal leave, working time, etc
+(3) HRD can manage employee's recruitment
+(4) HRD can issue warning letter {based on manager approval}
+(5) HRD can fire employee {based on manager approval} -> if employee receive warning more than 3 times
+(6) HRD can prepare list of employee to receive a salary change and change it after discussing {with manager}
+	-- then forward customer with salary raise to finance department
+(7) HRD sets employee's working time
+(8) HRD can view employee attendance with data visualization
+(9) HRD can view employee personal leave request ;include 10
+(10) HRD can accept or reject employee leave request
 
 [[3. Accounting and Finance Department]]
+
+(1) Finance manage SITM cash flow
+(2) Finance can view all fund request
+	(HRD: 6, )
+(3) Finance can accept , reject , revise the request {with manager}
+	-- result will be sent to related department and storage department if needed
+(4) Finance is in charge of calculating taxes
+
 [[4. Storage Department]]
+
+(1) SD can manage SITM facility and equipment
+(2) SD can label all facility and equipment
+(3) SD can keep track facility and equipment -> who , where , when last used
+(4) SD is in charge of purchasing new facilities requested by other departments {must be approved by finance}
+	-- calculate shortage or extra money {given from finance} then send to {finance}
+(5) SD check and fix facilities and equipment
+	- then notify the employee that send check request
+
 [[5. External Department]]
+
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+
 [[6. Promotion and Event Department]]
+
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+
 [[7. Movie Department (3)]]
+
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+
 [[8. Cafe Department (2)]]
+
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
+
 [[9. Admistrator Department (5)]]
+
+(1)
+(2)
+(3)
+(4)
+(5)
+(6)
