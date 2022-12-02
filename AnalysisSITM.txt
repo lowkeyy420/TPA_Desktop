@@ -45,8 +45,17 @@
 
 [[5. External Department]]
 
-(1)
-(2)
+(1) ED is responsible for maintaning relationship between SITM and external parties
+(2)                  
+
+\
+ 
+
+
+
+              AAA
+
+              AA      ASDASDASAS
 (3)
 (4)
 (5)
