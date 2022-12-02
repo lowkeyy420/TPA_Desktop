@@ -46,20 +46,15 @@
 [[5. External Department]]
 
 (1) ED is responsible for maintaning relationship between SITM and external parties
-(2)                  
+(2) ED must summarize and record shared information
+(3) ED must tell {manager} every desicion
 
-\
- 
+	[Movie Producers]
+	(1) 
+	(2)
+	(3)
 
 
-
-              AAA
-
-              AA      ASDASDASAS
-(3)
-(4)
-(5)
-(6)
 
 [[6. Promotion and Event Department]]
 
