@@ -1,18 +1,25 @@
-import "./App.css";
+import { Route, Switch } from "react-router-dom";
+
+import AllMeetupsPage from "./pages/AllMeetups";
+import FavoritesPage from "./pages/Favorites";
+import NewMeetupPage from "./pages/NewMeetup";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img
-          src={
-            "https://c-fa.cdn.smule.com/rs-s53/arr/02/ce/ace123e2-2a2b-4b66-93c3-bdb22ccc3d60_1024.jpg"
-          }
-          className="App-logo"
-          alt="logo"
-        />
-      </header>
-    </div>
+    <Layout>
+      <Switch>
+        <Route path="/" exact>
+          <AllMeetupsPage />
+        </Route>
+        <Route path="/favorites">
+          <FavoritesPage />
+        </Route>
+        <Route path="/new-meetup">
+          <NewMeetupPage />
+        </Route>
+      </Switch>
+    </Layout>
   );
 }
 
