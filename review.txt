@@ -1,0 +1,13 @@
+1. Manager gak perlu include
+2. Bahasa yang pakai manage diperjelas lagi  (hrd,manager)
+3. View nya diperbaikin use case data yg diolah / raw 
+4. Bahasa resign diperjelas lagi jadi sendresginationrequest
+5. Promotion and event : manage di ubah jadi CRUD
+6. Manage external department diubah
+7. Manager viewnya beda lagi (yang udah diolah)
+8. External department ada usecase record
+9. Movie department tambahin view
+10. movie department manage dipecah" lagi
+11. create membership seharusnya ada usecase sendiri
+12. opeartion division ga ada juga gapapa
+13. Use case diagram stereotypes , ga bole depedency , relationship association, 
