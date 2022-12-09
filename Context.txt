@@ -11,5 +11,5 @@
 - Flow firing employee : manager view employees order by warning letter, then click the button fire to update the selected employee to become inactive
 - Send fund request have a view of my fund requests
 - Flow fund request : employee send fund request then finance department will accept or reject fund request, if accepted then update status to accepted else rejected 
-
+- Flow employee salary change : manager and hrd will discuss ( not on this program ) about employees salary change then finance department will give approval if accepted then status set to accept else rejected. Then 
 
