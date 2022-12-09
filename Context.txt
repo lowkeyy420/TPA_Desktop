@@ -1,3 +1,15 @@
-1. Manager can see all employee personal details just like HRD
-2. Manager and Finance Department have the access to view SITM's financial condition
-3. Any discussion or work together should be done online / offline through another app ( online meeting/ onsite meeting )
+1. Every use case that needs to view certain data, we will make an assumption that the view is already included
+2. Manager have different financial report view from finance department
+3. Manager have complete report of membership
+4. HRD Employee Recruitment is not implemented on this program ( maybe on another program / add directly to database, example : NAR )
+5. Perfect Technology Assumption meaning there's no room for mistakes ( no one forgets their password )
+6. Salary Adjustment is not made on this program ( maybe on another program / update directly to database, example : HC ) after meeting
+7. 
+
+- Flow employee resignation : employee send resignation request then manager will accept or reject, if manager accept then update employee status to resign else update resignation request status to rejected
+- Flow warning letter : Add Warning letters to database, then manager view all warning letters + accept / reject them, if reject then update status to rejected else update employee warning letter count and add employees warning letter
+- Flow firing employee : manager view employees order by warning letter, then click the button fire to update the selected employee to become inactive
+- Send fund request have a view of my fund requests
+- Flow fund request : employee send fund request then finance department will accept or reject fund request, if accepted then update status to accepted else rejected 
+
+
