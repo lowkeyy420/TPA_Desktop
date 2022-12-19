@@ -1,0 +1,14 @@
+
+
+Use Case Diagram : 
+	-> Example + includes = 116
+Use Case Description : 
+	-> Definition = 163
+	-> Full use case example = 164
+	-> Example = 467
+Class Diagram :
+	-> Relationships = 134
+	-> Generalization = 108
+	-> Aggregation / Composition Relationship = 140
+Activity Diagram : 167
+Sequence Diagram :
