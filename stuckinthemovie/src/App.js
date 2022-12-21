@@ -1,22 +1,31 @@
-import { Route, Switch } from "react-router-dom";
+import { useContext } from "react";
+import { Route, Switch, Redirect } from "react-router-dom";
 
-import AllMeetupsPage from "./pages/AllMeetups";
-import FavoritesPage from "./pages/Favorites";
-import NewMeetupPage from "./pages/NewMeetup";
 import Layout from "./components/layout/Layout";
+import AuthContext from "./store/auth-context";
 
 function App() {
+  const authCtx = useContext(AuthContext);
   return (
     <Layout>
       <Switch>
         <Route path="/" exact>
-          <AllMeetupsPage />
+          <h1>HOMEPAGE</h1>
         </Route>
-        <Route path="/favorites">
-          <FavoritesPage />
-        </Route>
-        <Route path="/new-meetup">
-          <NewMeetupPage />
+
+        {!authCtx.isLoggedIn && (
+          <Route path="/auth">
+            <h1>LOGIN</h1>
+          </Route>
+        )}
+
+        {authCtx.isLoggedIn && (
+          <Route path="/profile">
+            <h1>LOGIN</h1>
+          </Route>
+        )}
+        <Route path="*">
+          <Redirect to="/" />
         </Route>
       </Switch>
     </Layout>
