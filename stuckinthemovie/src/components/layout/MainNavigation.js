@@ -11,10 +11,10 @@ function MainNavigation() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/Add Employee">Add Employee</Link>
+            <Link to="/add-employee">Add Employee</Link>
           </li>
           <li>
-            <Link to="/Login">Login</Link>
+            <Link to="/login">Login</Link>
           </li>
         </ul>
       </nav>
