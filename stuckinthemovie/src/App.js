@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 
 import Layout from "./components/layout/Layout";
 import LoginPage from "./pages/auth/LoginPage";
+import AddEmployeePage from "./pages/hrd/AddEmployeePage";
 import AuthContext from "./store/auth-context";
 
 function App() {
@@ -20,9 +21,9 @@ function App() {
           </Route>
         )}
 
-        {authCtx.isLoggedIn && (
+        {!authCtx.isLoggedIn && (
           <Route path="/add-employee">
-            <h1>LOGIN</h1>
+            <AddEmployeePage />
           </Route>
         )}
         <Route path="*">
