@@ -3,10 +3,10 @@ import MainNavigation from "./MainNavigation";
 
 function Layout(props) {
   return (
-    <div>
+    <section>
       <MainNavigation />
       <main className={classes.main}>{props.children}</main>
-    </div>
+    </section>
   );
 }
 

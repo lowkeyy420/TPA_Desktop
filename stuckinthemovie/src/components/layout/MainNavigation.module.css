@@ -5,13 +5,17 @@
   align-items: center;
   justify-content: space-between;
   background-color: #77002e;
-  padding: 0 10%;
+  padding: 0 2%;
+  z-index: 9999;
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 1rem;
   color: white;
   font-weight: bold;
+  text-align: center;
+  width: 10%;
+  display: flex;
 }
 
 .header ul {
@@ -19,7 +23,13 @@
   margin: 0;
   padding: 0;
   display: flex;
-  align-items: baseline;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header li {
@@ -28,13 +38,14 @@
 
 .header a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #fcb8d2;
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
+  transition: 0.1s ease-in-out !important;
   color: white;
 }
 
@@ -44,4 +55,27 @@
   border-radius: 12px;
   padding: 0 1rem;
   margin-left: 0.5rem;
+}
+
+.logoutButton {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #9e0a43;
+  border: 1px solid #fcb8d2;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.logoutButton:hover {
+  transition: 0.1s ease-in-out !important;
+  color: white;
+  background-color: #cc2062;
+  border-color: white;
+}
+
+.link {
+  border-bottom: 1px solid rgb(226, 216, 216);
+  border-width: 100%;
+  margin-bottom: 5px;
 }

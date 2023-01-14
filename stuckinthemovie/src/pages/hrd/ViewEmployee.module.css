@@ -1,0 +1,20 @@
+.datatable {
+  width: 100%;
+}
+
+.clearButon {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #e41564;
+  border: 1px solid #fcb8d2;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.clearButon:hover {
+  transition: 0.1s ease-in-out !important;
+  color: white;
+  background-color: #d45a89;
+  border-color: white;
+}

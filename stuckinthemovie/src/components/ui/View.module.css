@@ -1,0 +1,13 @@
+.expandedItem {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.issuebtn {
+  background-color: blue;
+  position: absolute !important;
+  z-index: 123;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

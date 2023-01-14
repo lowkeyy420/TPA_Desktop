@@ -19,6 +19,7 @@ function NumberInput(props) {
         onChange={onChange}
         id="numberInput"
         ref={props.inputRef}
+        required
       />
     </div>
   );

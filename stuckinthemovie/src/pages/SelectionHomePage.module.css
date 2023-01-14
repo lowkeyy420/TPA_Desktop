@@ -1,0 +1,31 @@
+a {
+  text-decoration: none;
+}
+
+.selectionOuterContainer {
+  background-image: url("../assets/sitm1.jpg");
+  background-size: "cover";
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  width: 100%;
+  height: 100%;
+
+  z-index: -1;
+}
+
+.selectionContainer {
+  margin-top: 20vh;
+  padding: 0px 50px 0px 50px;
+  display: grid;
+  /* grid-template: auto auto auto; */
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 30px;
+}

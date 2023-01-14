@@ -49,33 +49,39 @@ function LoginForm() {
             if (data && data.error && data.error.message) {
               errorMessage = data.error.message;
             }
+            setIsLoading(false);
             throw new Error(errorMessage);
           });
         }
       })
       .then((data) => {
-        console.log(data);
+        console.log("data pas login", data);
         const expirationTime = new Date(
           new Date().getTime() + +data.expiresIn * 1000
         );
-        authCtx.login(data.idToken, expirationTime.toISOString());
+        authCtx.login(
+          data.idToken,
+          expirationTime.toISOString(),
+          data.refreshToken
+        );
         history.replace("/");
       })
       .catch((err) => {
         alert(err.message);
+        setIsLoading(false);
       });
   };
 
   return (
     <section className={classes.auth}>
-      <h1>LOGIN</h1>
+      <h1>Login</h1>
       <form onSubmit={submitHandler}>
         <div className={classes.control}>
-          <label htmlFor="email">Your Email</label>
+          <label htmlFor="email">Email</label>
           <input type="email" id="email" required ref={emailInputRef} />
         </div>
         <div className={classes.control}>
-          <label htmlFor="password">Your Password</label>
+          <label htmlFor="password">Password</label>
           <input
             type="password"
             id="password"
